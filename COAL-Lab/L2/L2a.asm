@@ -95,7 +95,7 @@ end main
 ;REGISTERS     
 ;Accumulator Ax (hold value)           <AH AL> Ah(uses upper 8bits) Al(uses lower 8bits)
 ;Base        Bx <hold address>         <BH BL>
-;Counter     Cx <store the loop count> <BH BL>
+;Counter     Cx <store the loop count> <CH CL>
 ;Data        Dx <input/output value>   <DH DL>  
           
           
